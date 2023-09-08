@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Idroid';
+    src: url('idroid.otf') format('opentype');
+
+    /*
+    Tipos de fonte
+    - opentype (otf)
+    - truetype (ttf)
+    - embbed-opentype
+    - truetype-aat (Apple advanced Typography)
+    -svg
+    */
+}
+
+    header {
+        background-image: linear-gradient(to top, #008526, #3BC361);
+    }
+
+    nav {
+        color: #ffffff;
+        font-style: extra-bold;
+        
+    }
+
+    a{
+        color: #ffffff;
+    }
+
+    main{
+        text-align: center;
+        background-color: #fff;
+        margin: 0px 200px;
+        padding: 30px 10px;
+
+        
+    }
+    body{
+        background-color: #3BC361;
+    }
+
+ 
+    h1{
+        font-family: idroid;
+    }
+    h1#titlemain{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #ffffff;
+    }
+    h1#sub-title{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #ffffff;
+    }
+    h1#main{
+        font-family: idroid;
+        margin-top: 10px ;
+        text-align: left;
+        color: #003810;
+
+    }
+
+    h2 {
+        font-family: idroid;
+        color: #003810;
+        background-image: linear-gradient(to right, #49F588, #fff);
+        text-align: left;
+        padding: 1px 5px;
+        
+    }
+    
+    p{
+        text-align: left;
+        text-indent: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+
+
+
